@@ -8,5 +8,6 @@ class AppTheme {
         useMaterial3: true,
         fontFamily: 'Roboto',
         scaffoldBackgroundColor: const Color(0xFFF4F6FB),
+        splashFactory: InkRipple.splashFactory,
       );
 }
